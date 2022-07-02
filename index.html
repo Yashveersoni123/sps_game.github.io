@@ -2,23 +2,54 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
-   <script src="simple.js"></script>
+    <script src="simple.js"></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Game</title>
   </head>
+
   <body>
     <div class="container"></div>
-    <section id="sec"><h3>Welcome to my game</h3></section>
+    <section id="sec" class="form-group">
+      <h3>Welcome to my game</h3>
+    </section>
     <div class="container1">
       <div class="container2">
-        <div id="first"><img src="null.jpg" id="null" alt="" srcset="" /></div>
-        <div id="second"><img src="null.jpg" id="null1" alt="" srcset="" /></div>
+        <div id="first">
+          <img src="null.jpg" id="null" alt="" srcset="" />
+        </div>
+        <div id="second">
+          <img src="null.jpg" id="null1" alt="" srcset="" />
+        </div>
         <div id="third">
-          <li><button type="button"  id="btn1" class="stone" value="Stone"onclick="function1()" >Stone</button></li>
-          <li><button type="button" id="btn1"  class="paper" value="Paper"onclick="function2()">Paper</button></li>
-          <li><button type="button"  id="btn1" class="scissor" value="Scissor"onclick="function3()">Scissor</button></li>
+          <li>
+            <button type="button" id="btn1" onclick="function1()" value="Stone">
+              Stone
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              id="btn1"
+              class="paper"
+              value="Paper"
+              onclick="function2()"
+            >
+              Paper
+            </button>
+          </li>
+          <li>
+            <button
+              type="button"
+              id="btn1"
+              class="scissor"
+              value="Scissor"
+              onclick="function3()"
+            >
+              Scissor
+            </button>
+          </li>
         </div>
       </div>
     </div>
