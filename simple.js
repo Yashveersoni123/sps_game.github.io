@@ -1,6 +1,3 @@
-//user and cpu
-var i = 1;
-const computer = ["stone", "paper", "scissor"];
 //music
 var music = new Audio("button.mp3");
 var music1 = new Audio("game over.mp3");
